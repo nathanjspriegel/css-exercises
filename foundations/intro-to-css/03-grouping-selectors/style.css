@@ -1,1 +1,14 @@
-/* Add CSS Styling */
+.color,
+.no-color {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.no-color {
+  background-color: black;
+  color: hsl(0, 0%, 100%)
+}
+
+.color{
+  background-color: #ffe838;
+}
